@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = "A FastAPI template integrating PostgreSQL, SQLAlchemy, Alembic, Pydantic, and Docker, managed with Poetry for seamless dependency management and deployment. Designed for rapid development of robust APIs with database migrations, data validation, and containerization."
+authors = ["Ve2s4 <adityakumar1026.contact@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.31"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.3.4"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.2"
+uvicorn = "^0.30.1"
+fastapi = "^0.111.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
